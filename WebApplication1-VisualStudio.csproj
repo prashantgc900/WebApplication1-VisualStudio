@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>WebApplication1_VisualStudio</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/b5c74846-5d12-42e5-864a-c226f37dd0e6/resourceGroups/rg-centralus-dev/providers/microsoft.insights/components/azure-webapp1-dev-contiuousdelivery</ApplicationInsightsResourceId>
+    <UserSecretsId>5b2481fd-8a24-4ae0-bd6c-6e4c88ef0bac</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="3.1.2" />
+  </ItemGroup>
 
 </Project>
